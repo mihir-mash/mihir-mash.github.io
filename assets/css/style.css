@@ -3,16 +3,16 @@
    ======================================== */
 
 :root {
-    --accent-color: #00d9ff;
-    --accent-light: #1a3d3d;
+    --accent-color: #b8a1db;
+    --accent-light: #2d1f4a;
     --text-primary: #e0e0e0;
     --text-secondary: #b0b0b0;
     --text-tertiary: #808080;
     --border-color: #333333;
     --bg-dark: #0a0a0a;
     --bg-secondary: #1a1a1a;
-    --shadow-sm: 0 1px 3px rgba(0, 212, 255, 0.1);
-    --shadow-md: 0 4px 12px rgba(0, 212, 255, 0.15);
+    --shadow-sm: 0 1px 3px rgba(184, 161, 219, 0.1);
+    --shadow-md: 0 4px 12px rgba(184, 161, 219, 0.15);
     --transition: all 0.3s ease;
 }
 
@@ -69,7 +69,7 @@ a {
 }
 
 a:hover {
-    color: #00ffff;
+    color: #d4c5ff;
     text-decoration: underline;
 }
 
@@ -93,18 +93,21 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 2rem;
 }
 
 .nav-brand {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 700;
     color: var(--accent-color);
     letter-spacing: 0.5px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .nav-brand:hover {
     text-decoration: none;
-    color: #00ffff;
+    color: #d4c5ff;
 }
 
 .nav-menu {
@@ -423,6 +426,20 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
+.project-title {
+    display: inline-block;
+}
+
+.project-item a.project-title {
+    color: var(--accent-color);
+    transition: var(--transition);
+}
+
+.project-item a.project-title:hover {
+    color: #d4c5ff;
+    text-decoration: underline;
+}
+
 .project-description,
 .publication-description {
     color: var(--text-secondary);
@@ -479,8 +496,8 @@ a:hover {
    ======================================== */
 
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -489,32 +506,35 @@ a:hover {
 }
 
 .skill-category h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     color: var(--accent-color);
-    font-size: 1rem;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
 }
 
 .skill-list {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
+    display: inline;
 }
 
 .skill-list li {
     background-color: transparent;
-    border: 1px solid var(--text-tertiary);
-    padding: 0.5rem 0.85rem;
-    border-radius: 3px;
-    font-size: 0.85rem;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     transition: var(--transition);
+    display: inline;
+}
+
+.skill-list li:not(:last-child)::after {
+    content: ", ";
+    color: var(--text-secondary);
 }
 
 .skill-list li:hover {
-    border-color: var(--accent-color);
+    border-color: transparent;
     color: var(--accent-color);
 }
 

@@ -97,13 +97,3 @@
     - "Declarative Kubernetes YAML configurations with replica scaling"
     - "Rolling update strategies for zero-downtime deployments"
   github: "https://github.com/mihir-mash/hello-java-jenkins"
-
-- title: "SSRGNet - Protein Secondary Structure Prediction"
-  description: "Graph neural network combining protein sequences with 3D structural information for PSSP"
-  technologies: ["PyTorch", "GCN", "R-GCN", "DistilProtBERT", "Hugging Face"]
-  highlights:
-    - "Combines sequence info (DistilProtBERT) with 3D structural graphs"
-    - "R-GCN modeling of sequential, spatial, and local-environment relationships"
-    - "Parallel fusion architecture for sequence-structure integration"
-    - "3-state and 8-state protein secondary structure prediction"
-  status: "In Writing"

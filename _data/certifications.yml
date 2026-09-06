@@ -12,8 +12,3 @@
   issuer: "Training Course"
   date: "Completed"
   description: "Full-stack development training including React, Node.js, Express, MongoDB, JWT, and state management"
-
-- title: "LingualSafety 1.0 @ ICON 2026"
-  issuer: "ICON 2026"
-  date: "2026"
-  description: "Student Volunteer for shared task on defenses against multilingual jailbreak attacks on LLMs"

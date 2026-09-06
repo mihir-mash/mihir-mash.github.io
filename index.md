@@ -7,7 +7,7 @@ layout: default
     <div class="container">
         <section class="hero">
             <div class="hero-photo">
-                <img src="{{ '/assets/profile.svg' | relative_url }}" alt="Profile Photo">
+                <img src="{{ '/assets/profile.jpeg' | relative_url }}" alt="Profile Photo">
             </div>
             <div class="hero-text">
                 <h1>{{ site.data.site.name }}</h1>
@@ -81,7 +81,11 @@ layout: default
         <h2>Projects</h2>
         {% for project in site.data.projects %}
         <div class="project-item">
+            {% if project.github %}
+            <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer" class="project-title">{{ project.title }}</a>
+            {% else %}
             <div class="project-title">{{ project.title }}</div>
+            {% endif %}
             {% if project.status %}
             <div class="publication-status">{{ project.status }}</div>
             {% endif %}
@@ -104,9 +108,6 @@ layout: default
             {% endif %}
             
             <div class="project-links">
-                {% if project.github %}
-                <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-                {% endif %}
                 {% if project.demo %}
                 <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer">Live Demo</a>
                 {% endif %}
