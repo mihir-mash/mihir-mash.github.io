@@ -23,11 +23,7 @@ layout: default
         <h2>About</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>I'm currently an <strong>ML Engineer at Unity Bank</strong>, working on customer deduplication and entity resolution. I combine practical machine learning engineering with research interests in multilingual NLP and efficient LLM systems.</p>
-                
-                <p>As a <strong>Computer Science student at DJSCE</strong>, I'm specializing in Data Science and Computational Finance. I've completed internships in research (IIT Jodhpur) and industry, and I'm deeply involved in college leadership through technical clubs and social responsibility initiatives.</p>
-                
-                <p>I'm interested in bridging the gap between cutting-edge ML research and production systems, particularly in areas like entity resolution, NLP, and building scalable AI pipelines.</p>
+                {{ site.data.site.about | newline_to_br }}
             </div>
             <div class="about-meta">
                 <ul class="meta-list">
