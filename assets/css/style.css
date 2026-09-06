@@ -170,7 +170,7 @@ a:hover {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 3rem 1.5rem;
 }
 
 .page {
@@ -191,18 +191,18 @@ a:hover {
 
 .hero {
     display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 3rem;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
     align-items: flex-start;
     margin-bottom: 3rem;
 }
 
 .hero-photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 0;
     background-color: var(--bg-secondary);
-    border: 2px solid var(--accent-color);
+    border: none;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -218,6 +218,7 @@ a:hover {
 .hero-text h1 {
     margin-bottom: 0.5rem;
     color: var(--text-primary);
+    word-break: break-word;
 }
 
 .tagline {
@@ -252,6 +253,8 @@ a:hover {
 
     .hero-photo {
         margin: 0 auto;
+        width: 250px;
+        height: 250px;
     }
 }
 
