@@ -1,0 +1,275 @@
+Mihir Mashruwala
+mihirmashruwala@gmail.com 9930383817 linkedin.com/in/mihir-mashruwala github.com/mihir-mash
+EDUCATION
+B.Tech in Computer Science and Engineering (Data Science) with Honours in Computational Finance
+Dwarkadas Jivanlal Sanghvi College of Engineering
+CGPA: 9.236
+Sathaye College - Science
+12th: 73.17%
+Parle Tilak Vidyalaya English Medium School
+10th: 86.8%
+PROJECTS
+Post Stroke Recovery Tracking Analysis - https://github.com/mihir-mash/Multimodal-Post-Stroke-Recovery-Prediction-using-Audio-Visual-Deep-Learning
+•Designed a multimodal deep learning architecture integrating temporal facial landmark dynamics, MFCC based speech representations, and
+clinical metadata for post stroke recovery prediction.
+•Implemented modality specific encoders including BiLSTM with attention based temporal pooling for landmark motion modeling and MLP based
+acoustic feature extraction.
+•Developed a late fusion framework combining learned modality embeddings into a joint representation for regression based neurological
+recovery estimation.
+•Trained the model using staged fine tuning with LOSO cross validation to improve generalization across patient level variability.
+•Achieved an R squared score of 0.964 using multimodal regression for accurate post stroke recovery prediction from synchronized audio visual inputs.
+CyberSecure - Network Intrusion Detection & Immutable Threat Logging. - https://github.com/KashProgramming/redact_cybersecure
+•Designed and developed a backend driven network intrusion monitoring system for real time alert ingestion and analysis of network flow data.
+•Built a REST based logging service with cryptographic hash chaining (SHA 256 + Merkle Tree) to ensure tamper evident threat records
+•Implemented automated alert scoring and response recommendation engine exposed via FastAPI endpoints
+•Engineered PostgreSQL backed threat storage layer with GeoIP enrichment and IP reputation lookup integration
+•Delivered containerised full stack dashboard (Next.js + FastAPI) for SOC level threat visualization and forensic report generation
+Cynt - AI-Powered Startup Due Diligence System - https://github.com/KashProgramming/Cynt_startup_due_diligence
+•Developed a 4-stage asynchronous multi-agent AI pipeline to automate startup investment due diligence and generate structured evaluations
+•Engineered modular AI agents using LangChain & Groq to perform deterministic analysis on financial risk, market validation, & founder intelligence
+•Engineered a FastAPI and MongoDB backend managing role-based data flows, document extraction, and investor collaboration
+•Built deterministic financial simulations and integrated Google Trends/NewsAPI for live market momentum signals
+•Delivered a containerized React/FastAPI platform with an LLM decision engine and automated Jinja2 memos
+Centralized Logging & Monitoring using ELK Stack - https://github.com/mihir-mash/elk-centralized-logging-gcp
+•Implemented a centralized logging architecture using Elasticsearch, Logstash, and Kibana to aggregate logs from distributed containerized services
+•Configured Logstash pipelines to parse structured and unstructured application logs and forward indexed data to Elasticsearch
+•Designed interactive Kibana dashboards to visualize request trends, error rates, and system performance metrics in real time
+•Integrated logging agents within Docker and Kubernetes environments to enable continuous log collection across deployments
+•Optimized log indexing and search configurations to improve query efficiency and accelerate root cause analysis
+AI Screenplay ENhancer
+Built an AI-native system in Python leveraging LangChain, LangGraph, and Groq LLM to parse and enhance screenplays. Implemented scene parsing, character profiling, dialogue analysis, and tone detection, supported by prompt engineering, few-shot learning, and multi-agent orchestration with LLM observability. Designed the system to ingest multiple formats (PDF/TXT/DOCX) for broader usability, enabling scriptwriters to improve narrative quality, maintain character consistency, and detect tonal imbalances.
+
+Aerial Vision Detection-Classification-Segmentation - https://github.com/mihir-mash/aerial-vision-detection-classification-segmentation
+Developed end-to-end computer vision pipelines for object detection, image classification, and semantic segmentation on aerial and satellite imagery
+Implemented a custom YOLOv8 pipeline for drone landing pad detection, including dataset integration, training, and optimized inference.
+Built a multi-class land use classification system using the EuroSAT dataset with structured preprocessing, augmentation, and performance evaluation.
+Engineered a semantic segmentation pipeline on the DeepGlobe dataset for pixel-level scene understanding in remote sensing applications.
+Designed modular data pipelines using OpenCV and Albumentations for efficient preprocessing, augmentation, and improved model generalization.
+Conducted systematic experimentation and evaluation using metrics such as IoU, accuracy, and precision-recall to optimize model performance.
+
+Multi Agent Outreach Engine - https://github.com/lokesh-3s/Kabo_LOC8A2
+Designed & implemented a state driven multi agent orchestration pipeline for autonomous outreach decision making using graph based execution flow.
+Developed modular agent nodes for intent analysis, company recommendation, and engagement strategy selection enabling dynamic tool invocation and context aware action routing. 
+Engineered an execution graph using custom graph builder and agent state management to support multi step reasoning across recommendation and communication agents.
+Integrated recommendation engine within the agent loop to enable self guided decisions for target company selection and for outreach channels.
+
+Fashion Recommendor - https://github.com/mihir-mash/Fashion-Recommendor/tree/main
+Designed and implemented an image based fashion recommender system using transfer learning with ResNet50 to generate 2048 dimensional visual embeddings from 44,000 plus product images.
+Built a cosine similarity based k Nearest Neighbors retrieval pipeline for high dimensional feature search.
+Developed a Python REST backend to serve real time top K recommendations from precomputed embeddings.
+Integrated the system with a React and TypeScript frontend to deliver a scalable end to end content based recommendation for fashion e-commerce.
+
+Research Paper Classification & Conference Recommendation - https://researchfit.netlify.app/
+Developed a machine learning pipeline using SciBERT embeddings and Logistic Regression, achieving 86% accuracy in research paper classification.
+Extended the system with a conference recommendation module (CVPR, NeurIPS, EMNLP, TMLR, KDD) by integrating semantic similarity and structural feature analysis.
+Implemented LLM based rationale generation to provide transparent and explainable conference recommendations.
+Deployed the backend using Transformers, scikit learn, Joblib, and FastAPI to build a scalable research assistance tool.
+
+GCP Cloud Cost Optimizer - https://github.com/mihir-mash/gcp-cloud-cost-optimizer
+Designed and deployed a cloud cost monitoring solution on Google Cloud Platform using Compute Engine and Cloud Billing APIs
+Developed Python automation scripts to analyze billing metrics and detect underutilized infrastructure resources
+Implemented IAM-based access controls to secure billing data and enforce least-privilege cloud access policies
+Automated periodic cost reporting workflows and configured monitoring tools to track compute & storage consumption trends across services
+
+End-to-End CI/CD Deployment Pipeline - https://github.com/mihir-mash/hello-java-jenkins
+Designed and implemented an automated CI/CD pipeline integrating Git version control, Jenkins workflows, Docker containerization, and Kubernetes deployment
+Configured multi-stage Jenkins pipelines to trigger automated build, testing, and deployment processes on every code commit
+Containerized the application using optimized Dockerfiles to ensure consistent runtime environments across development and production
+Deployed containerized services to Kubernetes using declarative YAML configurations with replica-based scaling for high availability
+Implemented rolling update strategies and managed Linux-based environments to enable zero-downtime deployments and stable service operations
+
+Professional Experience
+Tech (AI) Co - Committee Member
+
+DJS Nova
+•Conducted Event Horizon, an astronomy-themed event featuring quizzes, rapid-fire rounds, and treasure hunts to engage participants in space science and exploration.  
+08/2024 – present
+•Gained expertise in Machine Learning and reaserch skills, including Data Science, through hands-on projects and practical applications. Learning how to approach, analyze, and write research papers with a structured methodology.
+Mechanical Head
+
+DJS ARYA
+•Mastered industry-standard software, including SolidWorks for designing, KeyShot for rendering, and ANSYS for simulations. 
+03/2024 – present
+•Developed a complete CAD model, rendered it, and created a detailed presentation for both the International and National CanSat competitions.  
+•Represented India in the International CanSat Competition, securing 15th place globally and 1st in India.
+Publicity Co - Committee Member
+
+DJS NSS
+•Organized the annual charity drive, gathering products from NGOs and selling them in college to raise funds for social causes.  
+09/2024 – 08/2025
+•Conducted a blood donation drive, managing logistics and leading publicity efforts across Vile Parle to maximize participation.
+
+Research Intern - IIT Jodhpur
+
+•Executed experimental evaluation for "DAMINI," a Hindi misogyny detection framework, contributing to a submission for AAAI 2027.
+•Evaluated and fine-tuned a suite of 9 multilingual LLMs (including Llama-3, Qwen3, and Sarvam) using Chain-of-Thought (CoT) supervision, significantly improving Macro-F1 scores by mitigating majority-class safety biases.
+•Engineered a Reinforcement Learning pipeline utilizing Generative Reward Policy Optimization (GRPO) to enhance the reasoning capabilities of the Sarvam-2B model on the MMLU-Indic dataset.
+
+
+
+ACHIEVEMENTS
+National Champions at the IN-SPACe CanSat India Student Competition 2025, securing 1st place among top student teams across India.
+Achieved 15th position worldwide and 6th in Asia in the International CanSat Competition organized by NASA.
+Semifinalist in Road to Atomquest by Atomberg Technologies, among the top 100 teams out of 85,000+ participants nationwide.
+POSITIONS OF RESPONSIBILITIES
+Tech (AI) Head - DJS NOVA
+Gained practical expertise in Machine Learning and Data Science through hands-on projects and applications. Developed strong research skills, including
+structured approaches to analyzing, interpreting, and writing research papers.
+Mechanical Head - DJS ARYA
+Mastered SolidWorks, KeyShot to design a complete CAD model, later presented at national and international CanSat competitions. Represented India at the
+International CanSat Competition, achieving 15th place globally and 1st nationally.
+Publicity - DJS NSS
+Organized an annual charity drive by collaborating with NGOs. Led a blood donation drive, overseeing logistics & publicity efforts to maximize participation.
+SKILLS
+Programming Languages: Python, Java, C++, SQL, JavaScript | Backend: FastAPI, Flask, REST API Design, Async Request Handling | Frontend: React,
+HTML, CSS | Databases: PostgreSQL, MySQL, MongoDB | Cloud & DevOps: GCP, Docker, Kubernetes, Jenkins | AI/ML & Data Science:
+LangChain, LangGraph, Hugging Face, SciBERT, RAG, TensorFlow, PyTorch, Scikit learn, Pandas, NumPy | Infrastructure & Security: Merkle Tree
+Logging, SHA 256 Integrity Systems | Operating Systems: Linux (Ubuntu, Kali), Windows, MacOS
+COURSES
+AWS Academy Graduate - AWS Academy Cloud Foundations
+Completed training in MERN Stack development, gaining practical experience in building full-stack applications using React, Node.js, Express and
+MongoDB, including API design, JWT authentication and state management.
+Cisco Networking Academy - CCNA: Introduction to Networks
+Built strong fundamentals in networking, including IP addressing, subnetting, routing and switching concepts, VLANs, and end-to-end packet flow analysis
+using Cisco tools.
+
+IIT Jodhpur work till now
+
+# 1. July Internship — DAMINI & Multilingual NLP Research - in review
+
+* **Internship:** Research internship at IIT Jodhpur under Dr. Deeksha Marshney.
+* **Primary July project:** *DAMINI: Fine-Grained Reasoning-Enhanced Misogyny Detection in Hindi.*
+* Worked on detecting **fine-grained and implicit misogyny in Hindi**, rather than treating misogyny as simple binary toxicity.
+* Worked with the **DAMINI dataset**, containing 2,240 Hindi YouTube comments across seven categories: Stereotype, Sexual Harassment, Intimidate, Disparage, Toxicity–Hostility, Coercion, and Non-Misogynistic. 
+* Worked on **reasoning-enhanced / Chain-of-Thought fine-tuning**, where models receive reasoning supervision to better understand cultural context, speaker-target relationships, patriarchal norms, scope of harm, and speech-act framing. 
+* Trained and evaluated approximately **10–11 multilingual and Indic LLMs**.
+* Implemented **3-fold stratified cross-validation** and used **Macro-F1** because of the dataset's class imbalance. 
+* Worked extensively on **debugging model-specific training issues**, checkpoint management, GPU experimentation, and parallel training.
+* Technologies: **Python, PyTorch, Hugging Face Transformers, LoRA, Unsloth, GPU/remote-server training, prompt engineering, LLM fine-tuning, Macro-F1 evaluation.**
+* Research finding: reasoning-enhanced fine-tuning produced substantial improvements for many models, with weaker/Indic-focused models generally benefiting the most. 
+
+---
+
+# 2. August Internship — Efficient LLM Post-Training & GRPO - building
+
+* **August project:** *Efficient Post-Training and Novel Architectures for Generative AI.*
+* Main research question: whether **efficient reinforcement-learning-based post-training can improve reasoning in smaller Indic LLMs without requiring extremely large computational resources.**
+* Primary model: **Sarvam-2B / Sarvam-2B-v0.5**.
+* Dataset: **Hindi subset of Indic MMLU**.
+* Implemented an end-to-end pipeline:
+
+**Sarvam-2B → 4-bit/NF4 Quantization → LoRA → SFT Warm-Start → GRPO → Reward Functions → Evaluation**
+
+* Implemented **GRPO (Group Relative Policy Optimization)** for reinforcement-learning-based post-training.
+* Implemented two reward functions:
+
+  * **Accuracy reward** — rewards correct answers.
+  * **Format reward** — encourages structured `<think>` and `<answer>` responses. 
+* Prepared a **1,000-sample dataset** for training/evaluation.
+* Established a baseline before post-training.
+* Implemented a short **SFT warm-start** before GRPO.
+* Currently involved in checkpoint retraining, optimization, held-out evaluation, and comparison against the original pretrained baseline. 
+* Technologies: **PyTorch, Hugging Face Transformers, TRL, PEFT, BitsAndBytes, LoRA, 4-bit quantization, SFT, GRPO, reward engineering, LLM evaluation.**
+* Additional skills developed: **literature review, experimental design, debugging, model evaluation, reward design, checkpoint management, GPU experimentation, and research analysis.**
+
+---
+
+# 3. LingualSafety — Student Volunteer @ ICON 2026
+
+* **Role:** Student Volunteer / organizing-side contributor for **LingualSafety 1.0 @ ICON 2026**.
+* Website: [LingualSafety 1.0](https://lingual-safety.github.io/?utm_source=chatgpt.com)
+* Shared task: **“Building Defences Against Multilingual Jailbreak Attacks.”**
+* Focus: developing and evaluating defenses against **multilingual jailbreak attacks on Large Language Models**.
+* Languages:
+
+  * English
+  * Hindi
+  * Bengali
+  * Marathi
+  * Punjabi
+* Benchmark contains **13,950 prompts**, covering **6 persuasion techniques** and **12 safety categories**.
+* Persuasion techniques include:
+
+  * Logical Appeal
+  * Authority Endorsement
+  * Anchoring
+  * Priming
+  * Misrepresentation
+  * Confirmation Bias
+* Safety categories include areas such as **illegal activity, malware, fraud, hate speech, privacy violations, political lobbying, financial advice, government decision making, physical/economic harm, copyright, and misinformation**.
+* Main evaluation concepts include **Attack Success Rate (ASR)** and **Safe Refusal Rate (SRR)**.
+* Important distinction: **Mihir is involved as a student volunteer on the event/shared-task organizing side, not simply as a participant.**
+* Do not assume specific organizing responsibilities unless explicitly provided.
+
+---
+
+# 4. Current Research — SSRGNet Protein Structure Paper - in writing paper
+
+* Currently helping with the research paper:
+  **“Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers.”**
+* The paper proposes **SSRGNet (Secondary Structure Relational Graph Neural Network)** for Protein Secondary Structure Prediction (PSSP).
+* Goal: combine **protein sequence information with 3D structural information** rather than relying only on amino-acid sequences.
+* Architecture combines:
+
+  * **DistilProtBERT / protein language model** for sequence representations.
+  * **GCN / R-GCN** for structural and relational information.
+  * Protein-residue graphs where residues are nodes.
+* Three graph relations are modeled:
+
+  * **R1 — Sequential Relationship**
+  * **R2 — Spatial Proximity**
+  * **R3 — Local Environment**. 
+* Evaluates different fusion approaches:
+
+  * Serial fusion
+  * Parallel fusion
+  * Cross fusion
+* **Parallel fusion** was selected as the final strategy because it generally performed best across the evaluated datasets. 
+* Datasets:
+
+  * NetSurfP-2.0
+  * CB513
+  * CASP12
+  * TS115
+* Evaluates both **3-state and 8-state protein secondary structure prediction**.
+* Reported 3-state results show SSRGNet improving over DistilProtBert on several evaluation sets. 
+* Important limitations identified in the paper:
+
+  * Noisy/incomplete structural data
+  * Limited graph-edge definitions
+  * Difficulty capturing long-range dependencies
+  * Sequence/structure feature redundancy
+  * Class imbalance in rare structural states
+  * **Batch size of 1 due to computational/memory constraints**. 
+* Current involvement: **helping with the research paper**. Do not invent a more specific individual contribution unless Mihir provides it.
+
+
+I am currently working as an ML Engineer at Unity Bank, where my primary project focuses on customer deduplication, entity resolution, and customer identity management. The bank uses Posidex to consolidate customer records and assign a unique customer identifier across different records and banking relationships. Posidex itself describes this type of system as linking and deduplicating customer records across different systems to create a unified customer view.
+
+A key challenge I am investigating is the occurrence of duplicate customer identities, where the same individual can end up being associated with multiple unique customer IDs because of variations or inconsistencies in their underlying information. For example, customer names may appear in different orders, spellings, formats, or transliterations, while identifiers such as PAN and other demographic attributes may contain formatting or data-quality variations. These differences can cause the existing matching logic to treat records belonging to the same individual as separate customers.
+
+My work involves analysing the existing deduplication and matching methodology, identifying cases where the system fails to correctly link records, and building evidence of its limitations. I am particularly focused on discovering groups of records where multiple unique customer IDs appear to correspond to the same individual, investigating the attributes responsible for the missed matches, and understanding where the existing matching rules or similarity mechanisms break down. The broader objective is to assess whether a more modern ML/AI-based entity-resolution approach could improve upon the existing system in terms of matching accuracy, robustness, and coverage.
+
+RBI Audit & Banking Data Quality
+
+As part of the same internship, I have also been involved in an RBI regulatory audit, where I worked with customer and KYC-related data to assess its accuracy, completeness, consistency, and compliance with applicable regulatory requirements.
+
+This involved working through large volumes of customer information, understanding the structure and meaning of different customer-data fields, identifying inconsistencies and potential data-quality issues, and helping clean and validate the data before it was used for regulatory review. The work required understanding how customer information is maintained across banking systems and checking whether the available records were sufficiently accurate and consistent for KYC and Customer Due Diligence (CDD) purposes.
+
+This was particularly relevant because RBI's KYC framework requires regulated entities to establish and verify customer identity using reliable and independent identification information, and specifically addresses situations where there are doubts about the authenticity, adequacy, or accuracy of customer-identification data.
+
+My involvement therefore covered not only data cleaning, but also data validation, anomaly identification, consistency checking, customer-record analysis, and understanding the regulatory implications of incorrect or incomplete customer information. The audit provided practical exposure to how machine-learning/data-engineering problems such as entity resolution and deduplication connect directly to banking compliance, KYC, customer risk management, and data governance.
+
+Core Technical/Professional Areas
+Machine Learning & Entity Resolution
+Customer deduplication and record linkage
+Customer identity resolution
+Similarity and matching analysis
+Failure-case and false-negative analysis
+Large-scale customer-data analysis
+Data cleaning and validation
+KYC / Customer Due Diligence
+Banking data governance and regulatory compliance
+RBI audit support
+Investigating legacy rule-based matching systems
+Exploring opportunities for ML-driven improvements to traditional deduplication systems

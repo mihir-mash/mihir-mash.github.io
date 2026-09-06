@@ -1,0 +1,47 @@
+- role: "ML Engineer"
+  company: "Unity Bank"
+  dates: "Current"
+  description: "Working on customer deduplication and entity resolution"
+  highlights:
+    - "Customer identity management and record linkage using Posidex"
+    - "Analyzing deduplication methodology and identifying matching failures"
+    - "Building ML/AI-based entity resolution approaches to improve matching accuracy"
+    - "RBI audit support for KYC and customer data validation"
+    - "Data cleaning, validation, and anomaly identification"
+
+- role: "Research Intern"
+  company: "IIT Jodhpur"
+  dates: "July – August 2024"
+  description: "Multilingual NLP and efficient LLM post-training research"
+  highlights:
+    - "DAMINI Project: Fine-grained reasoning-enhanced misogyny detection in Hindi"
+    - "Evaluated 10+ multilingual and Indic LLMs with Chain-of-Thought fine-tuning"
+    - "Implemented GRPO (Group Relative Policy Optimization) for efficient LLM post-training"
+    - "4-bit quantization and LoRA-based fine-tuning on Sarvam-2B model"
+    - "Macro-F1 evaluation with 3-fold stratified cross-validation"
+
+- role: "Tech (AI) Head"
+  company: "DJS NOVA"
+  dates: "08/2024 – Present"
+  description: "Leading AI/ML initiatives and research"
+  highlights:
+    - "Conducted Event Horizon astronomy-themed event"
+    - "Developed practical ML and data science expertise"
+    - "Structured research paper analysis and writing methodology"
+
+- role: "Mechanical Head"
+  company: "DJS ARYA"
+  dates: "03/2024 – Present"
+  description: "CAD design and engineering leadership"
+  highlights:
+    - "Mastered SolidWorks, KeyShot, and ANSYS"
+    - "Developed complete CAD model for CanSat competition"
+    - "Represented India in International CanSat Competition (15th globally, 1st nationally)"
+
+- role: "Publicity Co-Committee"
+  company: "DJS NSS"
+  dates: "09/2024 – 08/2025"
+  description: "Social responsibility and outreach"
+  highlights:
+    - "Organized annual charity drive with NGO partnerships"
+    - "Led blood donation drive with logistics and publicity management"

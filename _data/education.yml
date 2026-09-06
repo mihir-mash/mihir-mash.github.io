@@ -1,0 +1,17 @@
+- degree: "B.Tech in Computer Science and Engineering (Data Science) with Honours in Computational Finance"
+  institution: "Dwarkadas Jivanlal Sanghvi College of Engineering"
+  dates: "Ongoing"
+  cgpa: "9.236"
+  highlights:
+    - "Data Science specialization"
+    - "Computational Finance honours"
+
+- degree: "12th Grade"
+  institution: "Sathaye College - Science"
+  dates: "Completed"
+  percentage: "73.17%"
+
+- degree: "10th Grade"
+  institution: "Parle Tilak Vidyalaya English Medium School"
+  dates: "Completed"
+  percentage: "86.8%"

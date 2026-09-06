@@ -1,0 +1,29 @@
+- category: "Programming Languages"
+  skills: ["Python", "Java", "C++", "SQL", "JavaScript"]
+
+- category: "Backend & APIs"
+  skills: ["FastAPI", "Flask", "REST API Design", "Async Request Handling", "Node.js"]
+
+- category: "Frontend"
+  skills: ["React", "HTML", "CSS", "TypeScript"]
+
+- category: "Databases"
+  skills: ["PostgreSQL", "MySQL", "MongoDB"]
+
+- category: "Cloud & DevOps"
+  skills: ["GCP", "Docker", "Kubernetes", "Jenkins", "CI/CD Pipelines"]
+
+- category: "ML & Data Science"
+  skills: ["LangChain", "LangGraph", "Hugging Face", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "SciBERT", "RAG", "GRPO", "LoRA Fine-tuning"]
+
+- category: "ML Specializations"
+  skills: ["Entity Resolution", "Customer Deduplication", "NLP", "Computer Vision", "Deep Learning", "LLM Fine-tuning", "Reinforcement Learning"]
+
+- category: "Infrastructure & Security"
+  skills: ["Merkle Tree Logging", "SHA-256 Integrity Systems", "IAM Access Control", "Cryptographic Hash Chaining"]
+
+- category: "Operating Systems"
+  skills: ["Linux (Ubuntu, Kali)", "Windows", "macOS"]
+
+- category: "Other Tools"
+  skills: ["SolidWorks", "KeyShot", "ANSYS", "OpenCV", "Albumentations", "Elasticsearch", "Logstash", "Kibana"]

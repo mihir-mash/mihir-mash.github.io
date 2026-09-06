@@ -1,0 +1,30 @@
+# Jekyll Site Configuration
+title: "Mihir Mashruwala"
+description: "ML Engineer & Data Science Student"
+url: "https://mihir-mash.github.io"
+baseurl: ""
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Collections
+collections:
+  projects:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude unnecessary files
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,39 @@
+- title: "National Champions - IN-SPACe CanSat India Competition 2025"
+  description: "1st place among top student teams across India"
+  date: "2025"
+  category: "Competition"
+
+- title: "International CanSat Competition"
+  description: "15th position globally, 6th in Asia, organized by NASA"
+  date: "2024"
+  category: "Competition"
+
+- title: "1st Place in India - International CanSat Competition"
+  description: "Represented India with distinction in global competition"
+  date: "2024"
+  category: "Competition"
+
+- title: "Road to Atomquest - Semifinalist"
+  description: "Top 100 teams out of 85,000+ participants nationwide"
+  date: "2024"
+  category: "Competition"
+
+- title: "AWS Academy Graduate"
+  description: "AWS Academy Cloud Foundations Certification"
+  date: "Completed"
+  category: "Certification"
+
+- title: "Cisco Networking Academy - CCNA"
+  description: "Introduction to Networks - Strong fundamentals in networking, IP addressing, routing, and switching"
+  date: "Completed"
+  category: "Certification"
+
+- title: "MERN Stack Training"
+  description: "Completed full-stack development training including React, Node.js, Express, MongoDB, JWT, and state management"
+  date: "Completed"
+  category: "Certification"
+
+- title: "LingualSafety 1.0 @ ICON 2026"
+  description: "Student Volunteer for shared task on defenses against multilingual jailbreak attacks on LLMs"
+  date: "2026"
+  category: "Research"

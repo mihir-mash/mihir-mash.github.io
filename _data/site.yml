@@ -1,0 +1,37 @@
+# Site metadata
+name: "Mihir Mashruwala"
+title: "ML Engineer & Data Science Student"
+description: "Passionate about machine learning, entity resolution, and building scalable AI systems"
+
+# Contact information
+contact:
+  email: "mihirmashruwala@gmail.com"
+  phone: "+91 9930383817"
+  github: "https://github.com/mihir-mash"
+  linkedin: "https://linkedin.com/in/mihir-mashruwala"
+  resume: "/assets/resume.pdf"  # Add your resume PDF to /assets/ folder
+
+# About section
+about: |
+  I'm an ML Engineer at Unity Bank focusing on customer deduplication and entity resolution, 
+  and a Computer Science student at DJSCE specializing in Data Science and Computational Finance. 
+  I'm passionate about building scalable AI systems, multilingual NLP, and translating research 
+  into production-grade solutions.
+
+# Social links (for footer)
+social:
+  - name: "GitHub"
+    url: "https://github.com/mihir-mash"
+    icon: "github"
+  - name: "LinkedIn"
+    url: "https://linkedin.com/in/mihir-mashruwala"
+    icon: "linkedin"
+  - name: "Email"
+    url: "mailto:mihirmashruwala@gmail.com"
+    icon: "envelope"
+
+# Theme settings
+accent_color: "#0066cc"  # Professional blue - change as desired
+light_bg: "#ffffff"
+dark_bg: "#f8f9fa"
+text_color: "#333333"
