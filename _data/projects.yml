@@ -38,15 +38,6 @@
     - "Optimized indexing and search for accelerated root cause analysis"
   github: "https://github.com/mihir-mash/elk-centralized-logging-gcp"
 
-- title: "AI Screenplay Enhancer"
-  description: "AI-native system for parsing and enhancing screenplays with scene analysis and character profiling"
-  technologies: ["Python", "LangChain", "LangGraph", "Groq LLM", "Prompt Engineering"]
-  highlights:
-    - "Multi-format support (PDF, TXT, DOCX) for screenplay ingestion"
-    - "Scene parsing, character profiling, and dialogue analysis"
-    - "Tone detection and tonal imbalance flagging"
-    - "Few-shot learning and multi-agent orchestration"
-
 - title: "Aerial Vision - Detection, Classification, Segmentation"
   description: "End-to-end computer vision pipelines for object detection and segmentation on aerial/satellite imagery"
   technologies: ["YOLOv8", "OpenCV", "Albumentations", "PyTorch", "Remote Sensing"]

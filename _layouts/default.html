@@ -11,7 +11,7 @@
     {% seo %}
     
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    <link rel="icon" type="image/jpeg" href="{{ '/assets/favicon.jpg' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,14 +19,15 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="{{ '/' | relative_url }}" class="nav-brand">{{ site.data.site.name }}</a>
+            <a href="#" class="nav-brand" onclick="showPage('home'); return false;">{{ site.data.site.name }}</a>
             <ul class="nav-menu">
-                <li><a href="{{ '#about' | relative_url }}" class="nav-link">About</a></li>
-                <li><a href="{{ '#education' | relative_url }}" class="nav-link">Education</a></li>
-                <li><a href="{{ '#experience' | relative_url }}" class="nav-link">Experience</a></li>
-                <li><a href="{{ '#projects' | relative_url }}" class="nav-link">Projects</a></li>
-                <li><a href="{{ '#skills' | relative_url }}" class="nav-link">Skills</a></li>
-                <li><a href="{{ '#achievements' | relative_url }}" class="nav-link">Achievements</a></li>
+                <li><a href="#" class="nav-link active" onclick="showPage('home'); return false;">Home</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('education'); return false;">Education</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('experience'); return false;">Experience</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('projects'); return false;">Projects</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('publications'); return false;">Publications</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('skills'); return false;">Skills</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('achievements'); return false;">Achievements</a></li>
             </ul>
         </div>
     </nav>

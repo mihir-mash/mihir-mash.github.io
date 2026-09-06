@@ -2,141 +2,153 @@
 layout: default
 ---
 
-<div class="container">
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
+<!-- Home Page -->
+<div id="home" class="page active">
+    <div class="container">
+        <section class="hero">
+            <div class="hero-photo">
+                <img src="{{ '/assets/profile.svg' | relative_url }}" alt="Profile Photo">
+            </div>
             <div class="hero-text">
                 <h1>{{ site.data.site.name }}</h1>
                 <p class="tagline">{{ site.data.site.title }}</p>
-                <p class="bio">{{ site.data.site.about }}</p>
+                <div class="bio">
+                    {{ site.data.site.about | newline_to_br }}
+                </div>
                 <div class="cta-buttons">
-                    <a href="mailto:{{ site.data.site.contact.email }}" class="btn btn-primary">Get in Touch</a>
+                    <a href="mailto:{{ site.data.site.contact.email }}" class="btn btn-primary">Email</a>
                     <a href="{{ site.data.site.contact.resume }}" class="btn btn-secondary" target="_blank">Resume</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+</div>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-        <h2>About</h2>
-        <div class="about-content">
-            <div class="about-text">
-                {{ site.data.site.about | newline_to_br }}
-            </div>
-            <div class="about-meta">
-                <ul class="meta-list">
-                    <li><strong>📍 Location:</strong> Mumbai, India</li>
-                    <li><strong>📧 Email:</strong> <a href="mailto:{{ site.data.site.contact.email }}">{{ site.data.site.contact.email }}</a></li>
-                    <li><strong>📱 Phone:</strong> <a href="tel:{{ site.data.site.contact.phone }}">{{ site.data.site.contact.phone }}</a></li>
-                    <li><strong>🔗 Links:</strong> 
-                        <a href="{{ site.data.site.contact.github }}" target="_blank">GitHub</a> • 
-                        <a href="{{ site.data.site.contact.linkedin }}" target="_blank">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section">
+<!-- Education Page -->
+<div id="education" class="page">
+    <div class="container">
         <h2>Education</h2>
-        <div class="education-grid">
-            {% for edu in site.data.education %}
-            <div class="education-card">
-                <h3>{{ edu.degree }}</h3>
-                <p class="institution">{{ edu.institution }}</p>
-                <p class="dates">{{ edu.dates }}</p>
-                {% if edu.cgpa %}
-                <p class="metric">CGPA: {{ edu.cgpa }}</p>
-                {% endif %}
-                {% if edu.percentage %}
-                <p class="metric">{{ edu.percentage }}</p>
-                {% endif %}
-                {% if edu.highlights %}
-                <ul class="highlights">
-                    {% for item in edu.highlights %}
-                    <li>{{ item }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-            </div>
-            {% endfor %}
+        {% for edu in site.data.education %}
+        <div class="edu-item">
+            <div class="degree-title">{{ edu.degree }}</div>
+            <div class="institution">{{ edu.institution }}</div>
+            <div class="dates">{{ edu.dates }}</div>
+            {% if edu.cgpa %}
+            <div class="cgpa">CGPA: {{ edu.cgpa }}</div>
+            {% endif %}
+            {% if edu.percentage %}
+            <div class="cgpa">{{ edu.percentage }}</div>
+            {% endif %}
+            {% if edu.highlights %}
+            <ul class="highlights">
+                {% for item in edu.highlights %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
         </div>
-    </section>
+        {% endfor %}
+    </div>
+</div>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-        <h2>Experience & Positions of Responsibility</h2>
-        <div class="experience-timeline">
-            {% for exp in site.data.experience %}
-            <div class="experience-card">
-                <div class="experience-header">
-                    <h3>{{ exp.role }}</h3>
-                    <span class="company">{{ exp.company }}</span>
-                </div>
-                <p class="dates">{{ exp.dates }}</p>
-                {% if exp.description %}
-                <p class="description">{{ exp.description }}</p>
-                {% endif %}
-                {% if exp.highlights %}
-                <ul class="highlights">
-                    {% for item in exp.highlights %}
-                    <li>{{ item }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-            </div>
-            {% endfor %}
+<!-- Experience Page -->
+<div id="experience" class="page">
+    <div class="container">
+        <h2>Experience & Positions</h2>
+        {% for exp in site.data.experience %}
+        <div class="exp-item">
+            <div class="degree-title">{{ exp.role }}</div>
+            <div class="institution">{{ exp.company }}</div>
+            <div class="dates">{{ exp.dates }}</div>
+            {% if exp.description %}
+            <div class="content-description">{{ exp.description }}</div>
+            {% endif %}
+            {% if exp.highlights %}
+            <ul class="highlights">
+                {% for item in exp.highlights %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
         </div>
-    </section>
+        {% endfor %}
+    </div>
+</div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
+<!-- Projects Page -->
+<div id="projects" class="page">
+    <div class="container">
         <h2>Projects</h2>
-        <div class="projects-grid">
-            {% for project in site.data.projects %}
-            <div class="project-card">
-                <div class="project-header">
-                    <h3>{{ project.title }}</h3>
-                    {% if project.status %}
-                    <span class="project-status">{{ project.status }}</span>
-                    {% endif %}
-                </div>
-                <p class="project-description">{{ project.description }}</p>
-                
-                {% if project.highlights %}
-                <ul class="project-highlights">
-                    {% for highlight in project.highlights %}
-                    <li>{{ highlight }}</li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
-                
-                {% if project.technologies %}
-                <div class="tech-tags">
-                    {% for tech in project.technologies %}
-                    <span class="tech-tag">{{ tech }}</span>
-                    {% endfor %}
-                </div>
-                {% endif %}
-                
-                <div class="project-links">
-                    {% if project.github %}
-                    <a href="{{ project.github }}" class="link" target="_blank" rel="noopener noreferrer">GitHub →</a>
-                    {% endif %}
-                    {% if project.demo %}
-                    <a href="{{ project.demo }}" class="link" target="_blank" rel="noopener noreferrer">Live Demo →</a>
-                    {% endif %}
-                </div>
+        {% for project in site.data.projects %}
+        <div class="project-item">
+            <div class="project-title">{{ project.title }}</div>
+            {% if project.status %}
+            <div class="publication-status">{{ project.status }}</div>
+            {% endif %}
+            <div class="project-description">{{ project.description }}</div>
+            
+            {% if project.highlights %}
+            <ul class="highlights">
+                {% for highlight in project.highlights %}
+                <li>{{ highlight }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            
+            {% if project.technologies %}
+            <div class="tech-tags">
+                {% for tech in project.technologies %}
+                <span class="tech-tag">{{ tech }}</span>
+                {% endfor %}
             </div>
-            {% endfor %}
+            {% endif %}
+            
+            <div class="project-links">
+                {% if project.github %}
+                <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+                {% endif %}
+                {% if project.demo %}
+                <a href="{{ project.demo }}" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                {% endif %}
+            </div>
         </div>
-    </section>
+        {% endfor %}
+    </div>
+</div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section">
+<!-- Publications Page -->
+<div id="publications" class="page">
+    <div class="container">
+        <h2>Publications & Research</h2>
+        {% for pub in site.data.publications %}
+        <div class="publication-item">
+            <div class="publication-title">{{ pub.title }}</div>
+            <div class="publication-status">{{ pub.status }} • {{ pub.year }}</div>
+            <div class="project-description">{{ pub.description }}</div>
+            
+            {% if pub.highlights %}
+            <ul class="highlights">
+                {% for highlight in pub.highlights %}
+                <li>{{ highlight }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            
+            {% if pub.technologies %}
+            <div class="tech-tags">
+                {% for tech in pub.technologies %}
+                <span class="tech-tag">{{ tech }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Skills Page -->
+<div id="skills" class="page">
+    <div class="container">
         <h2>Skills</h2>
         <div class="skills-grid">
             {% for skill_group in site.data.skills %}
@@ -150,23 +162,33 @@ layout: default
             </div>
             {% endfor %}
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- Achievements Section -->
-    <section id="achievements" class="section">
-        <h2>Achievements & Certifications</h2>
-        <div class="achievements-list">
+<!-- Achievements Page -->
+<div id="achievements" class="page">
+    <div class="container">
+        <h2>Achievements</h2>
+        <div style="margin-bottom: 2rem;">
+            <h3 style="color: var(--accent-color); margin-bottom: 1.5rem;">Awards & Competitions</h3>
             {% for achievement in site.data.achievements %}
             <div class="achievement-item">
-                <div class="achievement-header">
-                    <h3>{{ achievement.title }}</h3>
-                    <span class="achievement-date">{{ achievement.date }}</span>
-                </div>
-                <p class="achievement-description">{{ achievement.description }}</p>
-                <span class="achievement-category">{{ achievement.category }}</span>
+                <div class="achievement-title">{{ achievement.title }}</div>
+                <div class="achievement-date">{{ achievement.date }}</div>
+                <div class="achievement-description">{{ achievement.description }}</div>
             </div>
             {% endfor %}
         </div>
-    </section>
 
+        <div>
+            <h3 style="color: var(--accent-color); margin-bottom: 1.5rem;">Certifications</h3>
+            {% for cert in site.data.certifications %}
+            <div class="achievement-item">
+                <div class="achievement-title">{{ cert.title }}</div>
+                <div class="achievement-date">{{ cert.issuer }} • {{ cert.date }}</div>
+                <div class="achievement-description">{{ cert.description }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>

@@ -1,57 +1,87 @@
-// Smooth scroll for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        const href = this.getAttribute('href');
-        if (href !== '#' && document.querySelector(href)) {
-            e.preventDefault();
-            const target = document.querySelector(href);
-            target.scrollIntoView({ behavior: 'smooth' });
-        }
+// Page Navigation
+function showPage(pageName) {
+    // Hide all pages
+    const pages = document.querySelectorAll('.page');
+    pages.forEach(page => {
+        page.classList.remove('active');
     });
-});
 
-// Add hover effect to cards
-const cards = document.querySelectorAll('.education-card, .experience-card, .project-card, .achievement-item');
-cards.forEach(card => {
-    card.addEventListener('mouseenter', function() {
-        this.style.transition = 'all 0.3s ease';
-    });
-});
+    // Show the selected page
+    const activePage = document.getElementById(pageName);
+    if (activePage) {
+        activePage.classList.add('active');
+        window.scrollTo(0, 0);
+    }
 
-// Add active state to navigation links based on scroll position
-window.addEventListener('scroll', () => {
-    const sections = document.querySelectorAll('.section');
+    // Update active nav link
     const navLinks = document.querySelectorAll('.nav-link');
-    
-    let current = '';
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (scrollY >= (sectionTop - 200)) {
-            current = section.getAttribute('id');
-        }
-    });
-    
     navLinks.forEach(link => {
         link.classList.remove('active');
-        if (link.getAttribute('href').slice(1) === current) {
-            link.classList.add('active');
-        }
     });
-});
-
-// Add animation on page load
-document.addEventListener('DOMContentLoaded', () => {
-    const heroText = document.querySelector('.hero-text');
-    if (heroText) {
-        heroText.style.opacity = '0';
-        heroText.style.animation = 'fadeInUp 0.8s ease-out forwards';
+    
+    // Find and highlight the clicked link
+    const clickedLink = event ? event.target : null;
+    if (clickedLink) {
+        clickedLink.classList.add('active');
+    } else {
+        // Fallback: find by page name
+        navLinks.forEach(link => {
+            if (link.textContent.toLowerCase() === pageName.toLowerCase()) {
+                link.classList.add('active');
+            }
+        });
     }
-});
+}
 
-// Keyboard navigation
+// Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         document.activeElement.blur();
+    }
+});
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+    // Set home as active by default
+    const homeLink = document.querySelector('.nav-link');
+    if (homeLink) {
+        homeLink.classList.add('active');
+    }
+
+    // Add smooth scroll for any anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            const href = this.getAttribute('href');
+            if (href && href !== '#' && !href.includes('showPage')) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    });
+});
+
+// Fix navigation link onclick
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach((link, index) => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const pages = ['home', 'education', 'experience', 'projects', 'publications', 'skills', 'achievements'];
+            if (index < pages.length) {
+                showPage(pages[index]);
+                
+                // Update active state
+                navLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            }
+        });
+    });
+
+    // Set home as active
+    if (navLinks.length > 0) {
+        navLinks[0].classList.add('active');
     }
 });

@@ -1,13 +1,13 @@
-# Jekyll
+# Jekyll build output
 _site/
 .jekyll-cache/
 .jekyll-metadata
-*.gem
 
 # Dependencies
 Gemfile.lock
+*.gem
 
-# IDE
+# IDE & Editor
 .vscode/
 .idea/
 *.swp
@@ -18,9 +18,18 @@ Gemfile.lock
 .DS_Store
 Thumbs.db
 
-# Environment
+# Environment & Secrets
 .env
 .env.local
 
-# Source data
+# Source data files
 mimi_all_info.txt
+moon_icon.jpe
+
+# Documentation (keep only README for deployment)
+PORTFOLIO_SUMMARY.md
+QUICKSTART.md
+DEPLOYMENT.md
+UPDATES.md
+DESIGN_OVERVIEW.md
+_data/README.md

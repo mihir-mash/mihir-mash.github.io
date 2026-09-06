@@ -1,0 +1,58 @@
+- title: "SSRGNet - Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers"
+  status: "In Writing"
+  year: "2024-2025"
+  description: |
+    Proposes SSRGNet for combining protein sequence information with 3D structural information. 
+    Integrates DistilProtBERT with GCN/R-GCN for modeling sequential, spatial, and local-environment relationships.
+  highlights:
+    - "Combines protein language models with 3D structural graphs"
+    - "Models three graph relations: Sequential, Spatial Proximity, Local Environment"
+    - "Parallel fusion strategy for sequence-structure integration"
+    - "Evaluated on NetSurfP-2.0, CB513, CASP12, TS115 datasets"
+    - "3-state and 8-state protein secondary structure prediction"
+  technologies: ["PyTorch", "GCN", "R-GCN", "DistilProtBERT", "Hugging Face", "Graph Neural Networks"]
+
+- title: "Post Stroke Recovery Tracking Analysis"
+  status: "Completed Project"
+  year: "2024"
+  description: |
+    Multimodal deep learning system integrating facial landmarks and speech analysis 
+    for predicting post-stroke neurological recovery.
+  highlights:
+    - "Multimodal architecture with temporal facial landmark dynamics"
+    - "MFCC-based speech representations"
+    - "BiLSTM with attention-based temporal pooling"
+    - "Late fusion framework for joint multimodal representation"
+    - "Achieved R² = 0.964 on regression-based recovery prediction"
+  technologies: ["Python", "BiLSTM", "Attention Mechanisms", "TensorFlow", "Deep Learning"]
+  github: "https://github.com/mihir-mash/Multimodal-Post-Stroke-Recovery-Prediction-using-Audio-Visual-Deep-Learning"
+
+- title: "DAMINI & Multilingual NLP Research"
+  status: "In Review for AAAI 2027"
+  year: "2024"
+  description: |
+    Fine-grained reasoning-enhanced misogyny detection in Hindi. Evaluated 10+ multilingual 
+    and Indic LLMs using Chain-of-Thought supervision on the DAMINI dataset.
+  highlights:
+    - "Fine-grained misogyny detection across 7 categories: Stereotype, Sexual Harassment, Intimidate, Disparage, Toxicity, Coercion, Non-Misogynistic"
+    - "2,240 Hindi YouTube comments from DAMINI dataset"
+    - "Reasoning-enhanced fine-tuning with Chain-of-Thought supervision"
+    - "Evaluated 10-11 multilingual and Indic LLMs (Llama-3, Qwen3, Sarvam)"
+    - "3-fold stratified cross-validation with Macro-F1 metrics"
+    - "Substantial improvements especially for Indic-focused models"
+  technologies: ["Python", "PyTorch", "Hugging Face Transformers", "LoRA", "Unsloth", "LLM Fine-tuning"]
+
+- title: "Efficient LLM Post-Training & GRPO"
+  status: "Ongoing Research"
+  year: "2024"
+  description: |
+    Efficient reinforcement-learning-based post-training for improving reasoning in smaller Indic LLMs. 
+    Implements GRPO for resource-efficient training on Sarvam-2B model.
+  highlights:
+    - "GRPO (Group Relative Policy Optimization) implementation"
+    - "4-bit NF4 quantization with LoRA fine-tuning"
+    - "SFT warm-start before GRPO training"
+    - "Accuracy and format reward functions"
+    - "Hindi MMLU dataset evaluation"
+    - "Comparison against pretrained baseline"
+  technologies: ["PyTorch", "Hugging Face Transformers", "TRL", "PEFT", "BitsAndBytes", "LoRA", "GRPO", "Reward Engineering"]

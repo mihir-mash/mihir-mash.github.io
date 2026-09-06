@@ -1,0 +1,19 @@
+- title: "AWS Academy Graduate"
+  issuer: "AWS Academy"
+  date: "Completed"
+  description: "AWS Academy Cloud Foundations Certification"
+
+- title: "Cisco Networking Academy - CCNA"
+  issuer: "Cisco"
+  date: "Completed"
+  description: "Introduction to Networks - Strong fundamentals in networking, IP addressing, routing, and switching"
+
+- title: "MERN Stack Training"
+  issuer: "Training Course"
+  date: "Completed"
+  description: "Full-stack development training including React, Node.js, Express, MongoDB, JWT, and state management"
+
+- title: "LingualSafety 1.0 @ ICON 2026"
+  issuer: "ICON 2026"
+  date: "2026"
+  description: "Student Volunteer for shared task on defenses against multilingual jailbreak attacks on LLMs"
