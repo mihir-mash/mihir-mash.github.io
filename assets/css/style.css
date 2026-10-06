@@ -363,7 +363,7 @@ a:hover {
 }
 
 .highlights li:before {
-    content: "—";
+    content: "-";
     position: absolute;
     left: 0;
     color: var(--accent-color);
@@ -575,6 +575,16 @@ a:hover {
     color: var(--text-secondary);
     font-size: 0.9rem;
     margin-top: 0.5rem;
+}
+
+.achievement-description p {
+    color: inherit;
+    margin-bottom: 0.75rem;
+}
+
+.achievement-description strong {
+    color: var(--text-primary);
+    font-weight: 600;
 }
 
 /* ========================================

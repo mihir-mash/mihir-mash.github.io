@@ -171,12 +171,22 @@ layout: default
     <div class="container">
         <h2>Achievements</h2>
         <div style="margin-bottom: 2rem;">
-            <h3 style="color: var(--accent-color); margin-bottom: 1.5rem;">Awards & Competitions</h3>
+            <h3 style="color: var(--accent-color); margin-bottom: 1.5rem;">Design Registration, Awards & Community Service</h3>
             {% for achievement in site.data.achievements %}
             <div class="achievement-item">
                 <div class="achievement-title">{{ achievement.title }}</div>
-                <div class="achievement-date">{{ achievement.date }}</div>
-                <div class="achievement-description">{{ achievement.description }}</div>
+                <div class="achievement-date">{% if achievement.issuer %}{{ achievement.issuer }} • {% endif %}{{ achievement.date }}</div>
+                <div class="achievement-description">{{ achievement.description | markdownify }}</div>
+                {% if achievement.tags %}
+                <div class="tech-tags">
+                    {% for tag in achievement.tags %}
+                    <span class="tech-tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                {% if achievement.url %}
+                <a href="{{ achievement.url }}" target="_blank" rel="noopener noreferrer">{{ achievement.link_label | default: 'View Achievement' }}</a>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
@@ -187,7 +197,14 @@ layout: default
             <div class="achievement-item">
                 <div class="achievement-title">{{ cert.title }}</div>
                 <div class="achievement-date">{{ cert.issuer }} • {{ cert.date }}</div>
-                <div class="achievement-description">{{ cert.description }}</div>
+                <div class="achievement-description">{{ cert.description | markdownify }}</div>
+                {% if cert.tags %}
+                <div class="tech-tags">
+                    {% for tag in cert.tags %}
+                    <span class="tech-tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
                 {% if cert.url %}
                 <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer">View Certificate</a>
                 {% endif %}

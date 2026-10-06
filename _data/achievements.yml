@@ -1,15 +1,86 @@
-- title: "10th Position Worldwide & 3rd in Asia - International CanSat Competition"
-  description: "Also won the Mark Walker Award for a portable Pokémon-themed Ground Station."
-  date: "2026"
-
-- title: "National Champions at the IN-SPACe CanSat India Student Competition 2025"
-  description: "1st place among top student teams across India"
-  date: "2025"
-
-- title: "15th Position Worldwide & 6th in Asia - International CanSat Competition"
-  description: "Organized by NASA. Represented India with distinction"
-  date: "2025"
-
-- title: "Road to Atomquest - Semifinalist"
-  description: "Top 100 teams out of 85,000+ participants nationwide by Atomberg Technologies"
-  date: "2025"
+- title: Registered Design - Smart Gyro-Stabilized CanSat with Sensor Telemetry
+  issuer: The Patent Office, Government of India | Design No. 467132-001
+  date: 24 July 2025
+  description: Co-registered the industrial design for a **Smart Gyro-Stabilized CanSat with Sensor Telemetry**
+    with the Patent Office, Government of India. The design was registered under **Class 14-03** with
+    a registration date of **24 July 2025**, with my name included among the registered applicants.
+  url: https://drive.google.com/file/d/12LjSwIwItQdKu5gAole4rUhWXiX9uuTS/view?usp=drive_link
+  link_label: View Design Registration
+  tags:
+  - Registered Design
+  - CanSat
+  - Gyro Stabilization
+  - Sensor Telemetry
+- title: 10th Worldwide & 3rd in Asia - International CanSat Competition Organised by the American Astronautical
+    Society and NASA
+  date: '2026'
+  description: Designed, built, integrated, and tested a **complete CanSat system from scratch**, covering
+    the mechanical structure, onboard electronics, sensing, telemetry, and overall system integration.
+    We also developed a **fully portable Pokémon-themed Ground Station from the ground up** for real-time
+    communication and mission monitoring. The project secured **10th position worldwide and 3rd in Asia**,
+    and our Ground Station received the **Mark Walker Award** for its design and implementation.
+  url: https://drive.google.com/file/d/1cZKF8Vi_yVYA4PeQmrOvv4Z9sJo7TRhJ/view?usp=drive_link
+  link_label: View Achievement
+  tags:
+  - CanSat
+  - Systems Integration
+  - Telemetry
+  - Ground Station
+  - Mark Walker Award
+- title: 15th Worldwide & 6th in Asia - International CanSat Competition Organised by the American Astronautical
+    Society and NASA
+  date: '2025'
+  description: Designed, built, integrated, and tested a **complete CanSat system from scratch**, including
+    its mechanical structure, onboard electronics, sensors, telemetry, and mission systems. Also developed
+    the supporting **Ground Station for real-time communication, telemetry monitoring, and mission control**.
+    Represented India at the international level, securing **15th position worldwide and 6th in Asia**.
+  url: https://drive.google.com/file/d/1JZCuxWom_sGyy_YFi1fzoCnpGKJk1vo1/view?usp=drive_link
+  link_label: View Achievement
+  tags:
+  - CanSat
+  - Mechanical Design
+  - Onboard Electronics
+  - Telemetry
+  - Mission Control
+- title: National Champions - IN-SPACe CanSat India Student Competition Organised by ISRO
+  date: '2025'
+  description: Secured **1st place nationwide** at the IN-SPACe CanSat India Student Competition, organized
+    by **IN-SPACe in association with ISRO and the Astronautical Society of India (ASI)**. We designed,
+    developed, integrated, and tested the complete CanSat system, including its onboard electronics, autonomous
+    flight systems, aerodynamic stabilization, payload, and real-time telemetry. During the final mission,
+    the system performed successfully across all key phases, from deployment and descent to telemetry
+    transmission and recovery, helping us emerge as **National Champions among leading student teams from
+    across India**.
+  tags:
+  - CanSat
+  - National Champions
+  - Autonomous Flight
+  - Payload Integration
+  - Telemetry
+- title: Road to AtomQuest - Semifinalist
+  date: '2025'
+  description: Selected among the **Top 100 teams nationwide from 85,000+ participating teams** in **Road
+    to AtomQuest**, an innovation competition organized by **Atomberg Technologies**. Advanced to the
+    semifinal stage by developing and presenting an engineering-driven solution focused on practical innovation,
+    technical feasibility, and real-world impact, competing against teams from across India.
+  url: https://www.linkedin.com/feed/update/urn:li:activity:7381746805459472384/
+  link_label: View on LinkedIn
+  tags:
+  - Innovation
+  - Engineering
+  - Technical Feasibility
+  - Semifinalist
+- title: NSS Camp 2025
+  issuer: DJS NSS - Dwarkadas J. Sanghvi College of Engineering
+  date: January 2025
+  description: Participated in the **NSS Camp 2025**, a seven-day residential community-service program
+    held from **22–28 January 2025**. Took part in activities centred around **community service, leadership
+    development, teamwork, and social awareness**, contributing to various initiatives conducted throughout
+    the camp.
+  url: https://drive.google.com/file/d/1KnnzAtVwPSnYLG2Y7G97U9dpxwsKZZjj/view?usp=drive_link
+  link_label: View Certificate
+  tags:
+  - Community Service
+  - Leadership
+  - Teamwork
+  - Social Awareness

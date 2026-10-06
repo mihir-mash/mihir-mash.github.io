@@ -1,11 +1,65 @@
-- title: "MERN Stack Training & AWS Academy Graduate"
-  issuer: "Training Course & AWS Academy"
-  date: "Completed"
-  description: "AWS Academy Cloud Foundations certification and full-stack development training covering React, Node.js, Express, MongoDB, JWT, and state management."
-  url: "https://drive.google.com/file/d/1_6Cd13B0hMxtN6nz3t05rRWwdRmNLMMC/view?usp=drive_link"
-
-- title: "Cisco Networking Academy - CCNA"
-  issuer: "Cisco"
-  date: "Completed"
-  description: "Introduction to Networks - Strong fundamentals in networking, IP addressing, routing, and switching"
-  url: "https://drive.google.com/file/d/1ulIElwp7O4Nllor7cEJthgpC7gPw8_hH/view?usp=drive_link"
+- title: Advanced Prompting & AI Tooling
+  issuer: Packt · Coursera
+  date: September 2026
+  description: Completed a Packt-authorized course focused on **advanced prompting techniques and AI tooling**,
+    strengthening my ability to work effectively with modern generative AI systems and structure prompts
+    for more reliable and useful AI-assisted workflows.
+  url: https://drive.google.com/file/d/1XL5TSKu2TGSyRuSKlvuy2TRQDArfGaxf/view?usp=drive_link
+  tags:
+  - Prompt Engineering
+  - Generative AI
+  - AI Tooling
+- title: Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI
+  issuer: IBM · Coursera
+  date: September 2026
+  description: Completed an IBM-authorized course on **Agentic AI**, focused on building and orchestrating
+    AI-agent workflows using frameworks such as **LangGraph, CrewAI, AutoGen, and BeeAI**. The course
+    strengthened my understanding of modern agent-based AI systems and the tools used to develop multi-agent
+    applications.
+  url: https://drive.google.com/file/d/1CabVsBtown4xoCP4PtPwRi2yWe8ecpp6/view?usp=drive_link
+  tags:
+  - Agentic AI
+  - LangGraph
+  - CrewAI
+  - AutoGen
+  - BeeAI
+- title: 'CCNA: Introduction to Networks'
+  issuer: Cisco Networking Academy
+  date: November 2025
+  description: 'Completed Cisco Networking Academy’s **CCNA: Introduction to Networks** course, building
+    a strong foundation in computer networking and network infrastructure. Gained hands-on understanding
+    of **switch and router configuration, IPv4/IPv6 addressing, Ethernet, OSI model concepts, network
+    security best practices, connectivity testing, and troubleshooting small networks**.'
+  url: https://drive.google.com/file/d/1ulIElwp7O4Nllor7cEJthgpC7gPw8_hH/view?usp=drive_link
+  tags:
+  - Networking
+  - Routing & Switching
+  - IPv4/IPv6
+  - Network Security
+  - Troubleshooting
+- title: AWS Academy Cloud Foundations
+  issuer: AWS Academy
+  date: April 2025
+  description: Completed the **AWS Academy Cloud Foundations** program, a **20-hour foundational course
+    in cloud computing and AWS technologies**. Developed an understanding of core cloud concepts, AWS
+    infrastructure and services, cloud security, architectural principles, pricing models, and the fundamentals
+    of designing and operating solutions in the AWS cloud environment.
+  url: https://drive.google.com/file/d/1_6Cd13B0hMxtN6nz3t05rRWwdRmNLMMC/view?usp=drive_link
+  tags:
+  - AWS
+  - Cloud Computing
+  - Cloud Security
+  - Cloud Architecture
+  - Pricing Models
+- title: MERN Stack Training
+  issuer: Training Course
+  date: Completed
+  description: Full-stack development training covering **React, Node.js, Express, MongoDB, JWT, and state
+    management**.
+  url: https://drive.google.com/file/d/1_6Cd13B0hMxtN6nz3t05rRWwdRmNLMMC/view?usp=drive_link
+  tags:
+  - React
+  - Node.js
+  - Express
+  - MongoDB
+  - Full-Stack Development
