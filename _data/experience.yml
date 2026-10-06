@@ -1,6 +1,6 @@
 - role: "ML Engineer"
   company: "Unity Bank"
-  dates: "Current"
+  dates: "August 2026 – Present"
   description: "Working on customer deduplication and entity resolution"
   highlights:
     - "Customer identity management and record linkage using Posidex"
@@ -11,7 +11,7 @@
 
 - role: "Research Intern"
   company: "IIT Jodhpur"
-  dates: "June 2024 – Present (2026)"
+  dates: "June 2026 – Present"
   description: "Multilingual NLP and efficient LLM post-training research"
   highlights:
     - "DAMINI Project: Fine-grained reasoning-enhanced misogyny detection in Hindi"

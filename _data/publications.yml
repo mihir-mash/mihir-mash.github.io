@@ -1,6 +1,6 @@
 - title: "SSRGNet - Protein Secondary Structure Prediction Using 3D Graphs and Relation-Aware Message Passing Transformers"
-  status: "In Writing"
-  year: "2024-2025"
+  status: "Ongoing Research"
+  year: "2026"
   description: |
     Proposes SSRGNet for combining protein sequence information with 3D structural information. 
     Integrates DistilProtBERT with GCN/R-GCN for modeling sequential, spatial, and local-environment relationships.
@@ -13,11 +13,12 @@
   technologies: ["PyTorch", "GCN", "R-GCN", "DistilProtBERT", "Hugging Face", "Graph Neural Networks"]
 
 - title: "Post Stroke Recovery Tracking Analysis"
-  status: "Completed Project"
-  year: "2024"
+  status: "Paper Submitted to IEEE DELCON"
+  year: "2024 – Ongoing"
   description: |
     Multimodal deep learning system integrating facial landmarks and speech analysis 
-    for predicting post-stroke neurological recovery.
+    for predicting post-stroke neurological recovery. A research paper has been written
+    and submitted to IEEE DELCON.
   highlights:
     - "Multimodal architecture with temporal facial landmark dynamics"
     - "MFCC-based speech representations"
@@ -29,7 +30,7 @@
 
 - title: "DAMINI & Multilingual NLP Research"
   status: "In Review for AAAI 2027"
-  year: "2024"
+  year: "2026"
   description: |
     Fine-grained reasoning-enhanced misogyny detection in Hindi. Evaluated 10+ multilingual 
     and Indic LLMs using Chain-of-Thought supervision on the DAMINI dataset.
@@ -44,7 +45,7 @@
 
 - title: "Efficient LLM Post-Training & GRPO"
   status: "Ongoing Research"
-  year: "2024"
+  year: "2026"
   description: |
     Efficient reinforcement-learning-based post-training for improving reasoning in smaller Indic LLMs. 
     Implements GRPO for resource-efficient training on Sarvam-2B model.

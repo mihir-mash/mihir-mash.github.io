@@ -13,7 +13,7 @@ layout: default
                 <h1>{{ site.data.site.name }}</h1>
                 <p class="tagline">{{ site.data.site.title }}</p>
                 <div class="bio">
-                    {{ site.data.site.about | newline_to_br }}
+                    <p>{{ site.data.site.about }}</p>
                 </div>
                 <div class="cta-buttons">
                     <a href="mailto:{{ site.data.site.contact.email }}" class="btn btn-primary">Email</a>
@@ -87,7 +87,7 @@ layout: default
             <div class="project-title">{{ project.title }}</div>
             {% endif %}
             {% if project.status %}
-            <div class="publication-status">{{ project.status }}</div>
+            <div class="publication-status">{{ project.status }}{% if project.year %} &bull; {{ project.year }}{% endif %}</div>
             {% endif %}
             <div class="project-description">{{ project.description }}</div>
             
@@ -188,6 +188,9 @@ layout: default
                 <div class="achievement-title">{{ cert.title }}</div>
                 <div class="achievement-date">{{ cert.issuer }} • {{ cert.date }}</div>
                 <div class="achievement-description">{{ cert.description }}</div>
+                {% if cert.url %}
+                <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer">View Certificate</a>
+                {% endif %}
             </div>
             {% endfor %}
         </div>

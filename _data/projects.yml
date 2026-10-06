@@ -1,5 +1,7 @@
 - title: "Post Stroke Recovery Tracking Analysis"
-  description: "Multimodal deep learning system for predicting post-stroke neurological recovery using facial landmarks and speech analysis"
+  status: "Ongoing Research"
+  year: "2024 – Ongoing"
+  description: "Multimodal deep learning system for predicting post-stroke neurological recovery using facial landmarks and speech analysis. A research paper has been written and submitted to IEEE DELCON."
   technologies: ["Python", "BiLSTM", "Attention Mechanisms", "TensorFlow", "Deep Learning"]
   highlights:
     - "Multimodal architecture integrating temporal facial landmark dynamics and MFCC speech representations"

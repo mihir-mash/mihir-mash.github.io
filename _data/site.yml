@@ -12,7 +12,7 @@ contact:
   resume: "/assets/resume.pdf"  # Add your resume PDF to /assets/ folder
 
 # About section
-about: |
+about: >-
   I'm an ML Engineer at Unity Bank focusing on customer deduplication and entity resolution, 
   and a Computer Science student at DJSCE specializing in Data Science and Computational Finance. 
   I'm passionate about building scalable AI systems, multilingual NLP, and translating research 
