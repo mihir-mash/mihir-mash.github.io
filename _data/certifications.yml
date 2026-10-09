@@ -1,9 +1,8 @@
 - title: Advanced Prompting & AI Tooling
   issuer: Packt · Coursera
   date: September 2026
-  description: Completed a Packt-authorized course focused on **advanced prompting techniques and AI tooling**,
-    strengthening my ability to work effectively with modern generative AI systems and structure prompts
-    for more reliable and useful AI-assisted workflows.
+  description: Completed a Packt-authorized course in **advanced prompting and AI tooling**, covering
+    structured prompts and reliable generative AI workflows.
   url: https://drive.google.com/file/d/1XL5TSKu2TGSyRuSKlvuy2TRQDArfGaxf/view?usp=drive_link
   tags:
   - Prompt Engineering
@@ -12,10 +11,8 @@
 - title: Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI
   issuer: IBM · Coursera
   date: September 2026
-  description: Completed an IBM-authorized course on **Agentic AI**, focused on building and orchestrating
-    AI-agent workflows using frameworks such as **LangGraph, CrewAI, AutoGen, and BeeAI**. The course
-    strengthened my understanding of modern agent-based AI systems and the tools used to develop multi-agent
-    applications.
+  description: Completed an IBM-authorized course in **agentic AI**, focused on orchestrating multi-agent
+    workflows with **LangGraph, CrewAI, AutoGen, and BeeAI**.
   url: https://drive.google.com/file/d/1CabVsBtown4xoCP4PtPwRi2yWe8ecpp6/view?usp=drive_link
   tags:
   - Agentic AI
@@ -26,10 +23,8 @@
 - title: 'CCNA: Introduction to Networks'
   issuer: Cisco Networking Academy
   date: November 2025
-  description: 'Completed Cisco Networking Academy’s **CCNA: Introduction to Networks** course, building
-    a strong foundation in computer networking and network infrastructure. Gained hands-on understanding
-    of **switch and router configuration, IPv4/IPv6 addressing, Ethernet, OSI model concepts, network
-    security best practices, connectivity testing, and troubleshooting small networks**.'
+  description: 'Completed **CCNA: Introduction to Networks**, covering switch and router configuration,
+    IPv4/IPv6 addressing, Ethernet, the OSI model, network security, connectivity testing, and troubleshooting.'
   url: https://drive.google.com/file/d/1ulIElwp7O4Nllor7cEJthgpC7gPw8_hH/view?usp=drive_link
   tags:
   - Networking
@@ -40,10 +35,8 @@
 - title: AWS Academy Cloud Foundations
   issuer: AWS Academy
   date: April 2025
-  description: Completed the **AWS Academy Cloud Foundations** program, a **20-hour foundational course
-    in cloud computing and AWS technologies**. Developed an understanding of core cloud concepts, AWS
-    infrastructure and services, cloud security, architectural principles, pricing models, and the fundamentals
-    of designing and operating solutions in the AWS cloud environment.
+  description: Completed a **20-hour AWS Academy Cloud Foundations** course covering cloud concepts, AWS
+    infrastructure and services, security, architecture, and pricing.
   url: https://drive.google.com/file/d/1_6Cd13B0hMxtN6nz3t05rRWwdRmNLMMC/view?usp=drive_link
   tags:
   - AWS

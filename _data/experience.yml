@@ -1,47 +1,42 @@
-- role: "ML Engineer"
-  company: "Unity Bank"
-  dates: "August 2026 – Present"
-  description: "Working on customer deduplication and entity resolution"
+- role: Research Intern
+  company: IIT Jodhpur
+  dates: June 2026 – Present
+  description: Research in multilingual natural language processing and resource-efficient language model
+    adaptation.
   highlights:
-    - "Customer identity management and record linkage using Posidex"
-    - "Analyzing deduplication methodology and identifying matching failures"
-    - "Building ML/AI-based entity resolution approaches to improve matching accuracy"
-    - "RBI audit support for KYC and customer data validation"
-    - "Data cleaning, validation, and anomaly identification"
-
-- role: "Research Intern"
-  company: "IIT Jodhpur"
-  dates: "June 2026 – Present"
-  description: "Multilingual NLP and efficient LLM post-training research"
+  - Evaluate more than 10 multilingual and Indic language models for reasoning-enhanced misogyny detection
+    on DAMINI.
+  - Implement Group Relative Policy Optimization (GRPO), 4-bit quantization, and LoRA adaptation for Sarvam-2B.
+  - Assess classification performance using macro-F1 and three-fold stratified cross-validation.
+- role: ML Engineer
+  company: Unity Bank
+  dates: August 2026 – Present
+  description: Developing machine learning approaches to customer deduplication and entity resolution
+    in banking.
   highlights:
-    - "DAMINI Project: Fine-grained reasoning-enhanced misogyny detection in Hindi"
-    - "Evaluated 10+ multilingual and Indic LLMs with Chain-of-Thought fine-tuning"
-    - "Implemented GRPO (Group Relative Policy Optimization) for efficient LLM post-training"
-    - "4-bit quantization and LoRA-based fine-tuning on Sarvam-2B model"
-    - "Macro-F1 evaluation with 3-fold stratified cross-validation"
-
-- role: "Tech (AI) Head"
-  company: "DJS NOVA"
-  dates: "June 2025 – June 2026"
-  description: "Leading AI/ML initiatives and research"
+  - Analyze customer matching failures and record linkage workflows using Posidex.
+  - Develop ML-based identity matching approaches and validate customer data quality.
+  - Support KYC data validation and RBI audit requirements through anomaly analysis.
+- role: Mechanical Head
+  company: DJS ARYA
+  dates: June 2025 – June 2026
+  description: Led mechanical design and contributed to CanSat development, integration, and testing.
   highlights:
-    - "Conducted Event Horizon astronomy-themed event"
-    - "Developed practical ML and data science expertise"
-    - "Structured research paper analysis and writing methodology"
-
-- role: "Mechanical Head"
-  company: "DJS ARYA"
-  dates: "June 2025 – June 2026"
-  description: "CAD design and engineering leadership"
+  - Developed CanSat CAD models using SolidWorks, with KeyShot and ANSYS in the engineering workflow.
+  - Contributed to mechanical structure, onboard electronics, sensing, telemetry, and system integration.
+  - Represented India at the International CanSat Competition; team placed 10th worldwide in 2026 and
+    15th in 2025.
+- role: AI Technical Head
+  company: DJS NOVA
+  dates: June 2025 – June 2026
+  description: Led student AI initiatives, research discussions, and astronomy outreach.
   highlights:
-    - "Mastered SolidWorks, KeyShot, and ANSYS"
-    - "Developed complete CAD model for CanSat competition"
-    - "Represented India in International CanSat Competition (15th globally, 1st nationally)"
-
-- role: "Publicity Co-Committee"
-  company: "DJS NSS"
-  dates: "09/2024 – 08/2025"
-  description: "Social responsibility and outreach"
+  - Organized Event Horizon, an astronomy-themed event.
+  - Supported practical machine learning activities and structured research paper analysis.
+- role: Publicity Committee Member
+  company: DJS NSS
+  dates: September 2024 – August 2025
+  description: Coordinated community outreach and publicity for student service initiatives.
   highlights:
-    - "Organized annual charity drive with NGO partnerships"
-    - "Led blood donation drive with logistics and publicity management"
+  - Organized an annual charity drive with NGO partners.
+  - Coordinated logistics and publicity for a blood donation drive.

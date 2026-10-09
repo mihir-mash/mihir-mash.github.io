@@ -1,37 +1,31 @@
-# Site metadata
-name: "Mihir Mashruwala"
-title: "ML Engineer & Data Science Student"
-description: "Passionate about machine learning, entity resolution, and building scalable AI systems"
-
-# Contact information
+name: Mihir Mashruwala
+title: Machine Learning · Aerospace Systems · Research
+description: 'Mihir Mashruwala: machine learning engineer and undergraduate researcher working on multilingual
+  NLP, efficient language models, computer vision, and CanSat aerospace systems.'
 contact:
-  email: "mihirmashruwala@gmail.com"
-  phone: "+91 9930383817"
-  github: "https://github.com/mihir-mash"
-  linkedin: "https://linkedin.com/in/mihir-mashruwala"
-  resume: "/assets/resume.pdf"  # Add your resume PDF to /assets/ folder
-
-# About section
-about: >-
-  I'm an ML Engineer at Unity Bank focusing on customer deduplication and entity resolution, 
-  and a Computer Science student at DJSCE specializing in Data Science and Computational Finance. 
-  I'm passionate about building scalable AI systems, multilingual NLP, and translating research 
-  into production-grade solutions.
-
-# Social links (for footer)
+  email: mihirmashruwala@gmail.com
+  phone: +91 9930383817
+  github: https://github.com/mihir-mash
+  linkedin: https://linkedin.com/in/mihir-mashruwala
+about: I am a Computer Science and Engineering undergraduate at Dwarkadas Jivanlal Sanghvi College of
+  Engineering, specializing in Data Science with Honours in Computational Finance (2023–2027). As an ML
+  Engineer at Unity Bank, I work on customer identity matching and entity resolution. At IIT Jodhpur,
+  my research focuses on multilingual natural language processing and efficient language model post-training.
 social:
-  - name: "GitHub"
-    url: "https://github.com/mihir-mash"
-    icon: "github"
-  - name: "LinkedIn"
-    url: "https://linkedin.com/in/mihir-mashruwala"
-    icon: "linkedin"
-  - name: "Email"
-    url: "mailto:mihirmashruwala@gmail.com"
-    icon: "envelope"
-
-# Theme settings
-accent_color: "#0066cc"  # Professional blue - change as desired
-light_bg: "#ffffff"
-dark_bg: "#f8f9fa"
-text_color: "#333333"
+- name: GitHub
+  url: https://github.com/mihir-mash
+  icon: github
+- name: LinkedIn
+  url: https://linkedin.com/in/mihir-mashruwala
+  icon: linkedin
+accent_color: '#b8a1db'
+light_bg: '#1a1a1a'
+dark_bg: '#0a0a0a'
+text_color: '#e0e0e0'
+about_research: My work spans graph neural networks for protein structure prediction, multimodal learning
+  for post-stroke recovery, and computer vision for aerial imagery. Alongside AI research, I have designed
+  and integrated CanSat mechanical structures, onboard electronics, sensor telemetry, and ground stations.
+  Our teams placed 10th worldwide in 2026 and won the 2025 IN-SPACe national competition; our portable
+  Pokémon-themed ground station received the Mark Walker Ground Station Award.
+interests: 'Research interests: efficient and reliable AI, multimodal perception, and intelligent aerospace
+  systems.'
