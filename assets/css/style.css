@@ -25,25 +25,17 @@ button { font: inherit; }
 a, button, summary { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 2px solid var(--accent-color); outline-offset: 5px; }
 strong { font-weight: 600; color: var(--text-primary); }
-/* Static CSS stars need no scripts, image downloads, or continuous animation.
-   Decorative layers never intercept interaction or affect page width. */
-.sky { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; background: radial-gradient(ellipse at 90% 5%, #2a173c66, transparent 52%), radial-gradient(ellipse at 0% 75%, #21122f44, transparent 55%), #0a0a0a; }
+/* A small static SVG tile is painted once: no scripts, filters, or animation.
+   Solid black navigation and footer sit above this decorative sky. */
+.sky { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; background: #0b0713; }
 .stars {
     position: absolute;
     inset: 0;
-    opacity: 0.72;
-    background-image:
-        radial-gradient(1px 1px at 24px 38px, #e4ddf5 85%, transparent),
-        radial-gradient(1px 1px at 118px 156px, #b8a1db 85%, transparent),
-        radial-gradient(1.4px 1.4px at 206px 74px, #ded4f0 75%, transparent),
-        radial-gradient(0.7px 0.7px at 71px 218px, #a69bbb 85%, transparent),
-        radial-gradient(1px 1px at 312px 183px, #d0c2ea 85%, transparent),
-        radial-gradient(0.8px 0.8px at 165px 292px, #b8a1db 85%, transparent);
-    background-size: 293px 257px, 397px 331px, 521px 419px, 347px 307px, 613px 487px, 463px 373px;
+    opacity: 0.82;
+    background-image: url('../starfield.svg');
+    background-repeat: repeat;
+    background-size: 640px 960px;
 }
-.orbit { position: absolute; width: 650px; height: 650px; top: -260px; right: -170px; border: 1px solid #b8a1db19; border-radius: 50%; transform: rotate(-25deg) scaleY(0.7); }
-.orbit::before { content: ''; position: absolute; inset: 65px; border: 1px solid #b8a1db12; border-radius: 50%; }
-.orbit::after { content: ''; position: absolute; width: 9px; height: 9px; left: 85px; top: 95px; background: #b8a1db; box-shadow: 0 0 18px #b8a1db55; border-radius: 50%; }
 .navbar { position: sticky; top: 0; z-index: 100; background: #000; border-bottom: 1px solid var(--border-color); }
 .nav-container { max-width: 1600px; margin: auto; padding: 1rem clamp(1.25rem, 4vw, 4rem); display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .nav-brand { color: var(--text-primary); font-size: 0.9rem; font-weight: 600; white-space: nowrap; }
