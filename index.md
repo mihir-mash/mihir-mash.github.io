@@ -7,7 +7,10 @@ layout: default
             <div class="hero-text">
                 <p class="eyebrow">AI research & aerospace engineering</p>
                 <h1 id="about-heading">{{ site.data.site.name }}</h1>
-                <p class="tagline">{{ site.data.site.title }}</p>
+                <div class="hero-titles" aria-label="Areas of work">
+                    <span class="hero-title hero-title-primary">AI Researcher</span>
+                    <span class="hero-title">Aerospace Systems</span>
+                </div>
                 <div class="bio">
                     <p>{{ site.data.site.about }}</p>
                     <p>{{ site.data.site.about_research }}</p>
@@ -21,7 +24,7 @@ layout: default
                 </div>
             </div>
             <div class="hero-portrait">
-                <div class="hero-photo"><img src="{{ '/assets/profile.jpeg' | relative_url }}" alt="Mihir Mashruwala" width="300" height="300" fetchpriority="high"></div>
+                <div class="hero-photo"><img src="{{ '/assets/profile.jpeg' | relative_url }}" alt="Mihir Mashruwala" width="960" height="1280" fetchpriority="high"></div>
             </div>
         </div>
     </div>
