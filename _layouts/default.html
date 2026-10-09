@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="{{ site.data.site.accent_color }}">
     {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=20261009-2">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}?v=20261009-2" defer></script>
 </head>
 <body>
-    <a class="skip-link" href="#main">Skip to content</a>
     <div class="sky" aria-hidden="true"><div class="stars"></div><div class="orbit"></div></div>
     <nav class="navbar" aria-label="Main navigation">
         <div class="nav-container">
@@ -34,22 +33,12 @@
     </main>
     <footer class="footer">
         <div class="container footer-content">
-            <div>
-                <p class="eyebrow">Get in touch</p>
-                <h2>Let’s talk research and engineering.</h2>
-                <div class="email-contact">
-                    <span class="email-address">{{ site.data.site.contact.email }}</span>
-                    <button type="button" class="btn btn-secondary copy-email" data-email="{{ site.data.site.contact.email }}">Copy email</button>
-                    <span class="copy-status" role="status" aria-live="polite"></span>
-                </div>
-            </div>
             <div class="footer-social">
                 {% for social in site.data.site.social %}
                 <a href="{{ social.url }}" class="social-link" target="_blank" rel="noopener noreferrer">{{ social.name }} ↗</a>
                 {% endfor %}
                 <a href="#home" class="social-link">Back to top ↑</a>
             </div>
-            <p class="footer-text">&copy; {{ site.time | date: '%Y' }} {{ site.data.site.name }}. All rights reserved.</p>
         </div>
     </footer>
 </body>

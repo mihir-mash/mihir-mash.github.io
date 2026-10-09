@@ -34,24 +34,4 @@
     window.addEventListener('scroll', scheduleUpdate, { passive: true });
     window.addEventListener('resize', () => { measureNav(); scheduleUpdate(); });
     if ('ResizeObserver' in window && nav) new ResizeObserver(() => { measureNav(); scheduleUpdate(); }).observe(nav);
-
-    document.querySelectorAll('.copy-email').forEach(button => {
-        button.addEventListener('click', async () => {
-            const contact = button.closest('.email-contact');
-            const status = contact.querySelector('.copy-status');
-            const email = button.dataset.email;
-            try {
-                await navigator.clipboard.writeText(email);
-                status.textContent = 'Email copied';
-            } catch {
-                // The address is always visible and can be selected without clipboard permission.
-                const range = document.createRange();
-                range.selectNodeContents(contact.querySelector('.email-address'));
-                const selection = window.getSelection();
-                selection.removeAllRanges();
-                selection.addRange(range);
-                status.textContent = 'Address selected. Copy it with your device’s copy command.';
-            }
-        });
-    });
 })();
